@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+
+#color-box {
+    width: 500px;
+    height: 100px;
+}
+
+#change-color-btn {
+    border: 1px solid rebeccapurple;
+    padding: 1rem;
+}
+
+#change-color-btn:hover {
+    box-shadow: 0 0 7px rgba(102, 51, 153, 0.3);
+}
